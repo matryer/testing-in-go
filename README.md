@@ -14,7 +14,7 @@ Wed Aug 28 18:30:10 +0000 2014: Something went a little wrong :)
 
   * Plain text
   * Assume `Info`
-  * time.Parse layout: `time.RubyDate`
+  * `time.Parse` layout: `time.RubyDate`
 
 #### Live
 
@@ -25,7 +25,7 @@ Wed Aug 28 18:30:10 +0000 2014: Something went a little wrong :)
   * CSV?
   * Assume today
   * `INF`, `ERR` and `WRN`
-  * time.Parse layout: `time.Kitchen`
+  * `time.Parse` layout: `time.Kitchen`
 
 #### New
 
@@ -35,4 +35,4 @@ Wed Aug 28 18:30:10 +0000 2014: Something went a little wrong :)
 
   * JSON format
   * `Info`, `Error` or `Warning`
-  * time.Parse layout: `time.RFC3339Nano`
+  * `time.Parse` layout: `time.RFC3339Nano`
