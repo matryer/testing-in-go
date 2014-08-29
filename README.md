@@ -13,7 +13,7 @@ Wed Aug 28 18:30:10 +0000 2014: Something went a little wrong :)
 ```
 
   * Plain text
-  * Assume `Info`
+  * Assume `Info`?
   * `time.Parse` layout: `time.RubyDate`
 
 #### Live
@@ -24,13 +24,13 @@ Wed Aug 28 18:30:10 +0000 2014: Something went a little wrong :)
 
   * CSV?
   * Assume today
-  * `INF`, `ERR` and `WRN`
+  * Levels: `INF`, `ERR` and `WRN`
   * `time.Parse` layout: `time.Kitchen`
 
 #### New
 
 ```
-{"when":"2014-08-26T18:30:01.000000002Z","type":"Info","message":"This is the log message"}
+{"when":"2014-08-26T18:30:01.000000002Z","level":"Info","message":"This is the log message"}
 ```
 
   * JSON format
